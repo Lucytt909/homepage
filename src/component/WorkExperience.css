@@ -1,0 +1,18 @@
+.work-experience-content {
+  padding: 16px 32px;
+}
+
+.work-experience-bullet {
+  padding-left: 32px;
+  margin-bottom: 6px;
+}
+
+@media only screen and (max-width: 767px) {
+  .work-experience-content {
+    padding: 16px;
+  }
+
+  .work-experience-bullet {
+    padding-left: 16px;
+  }
+}

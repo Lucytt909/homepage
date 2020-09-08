@@ -1,0 +1,24 @@
+@import '~antd/dist/antd.css';
+
+.App {
+  text-align: center;
+  background: #f0f2f5;
+  min-height: 100vh;
+}
+
+.left-align {
+  text-align: left;
+}
+
+.centered {
+  text-align: center;
+  margin: auto;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.tag-row {
+  line-height: 32px;
+}

@@ -1,0 +1,22 @@
+.home-cards-container {
+  padding: 30px calc(50vw - 520px);
+}
+
+.inner-card-container {
+  margin: 0 16px;
+  min-height: 200px;
+}
+
+@media only screen and (max-width: 767px) {
+  .inner-card-container {
+    margin: 16px 0;
+  }
+}
+
+.card-container {
+  margin: 12px !important;
+  min-height: 220px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2),
+  0 1px 5px 0 rgba(0, 0, 0, 0.12);
+  font-size: 14px !important;
+}

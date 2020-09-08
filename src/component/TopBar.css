@@ -1,0 +1,22 @@
+.page-header-wrapper {
+  background-color: #fff;
+  padding: 6px;
+}
+
+.page-header-text {
+  font-size: 24px;
+}
+
+.page-header-sub-text {
+  font-size: 16px;
+}
+
+.contact-text {
+  font-size: 16px;
+}
+
+@media only screen and (max-width: 767px) {
+  .page-header-sub-text {
+    display: none;
+  }
+}

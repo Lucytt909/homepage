@@ -1,0 +1,31 @@
+.skill-card {
+  margin-bottom: 16px;
+  height: 360px;
+}
+
+.skill-text {
+  padding: 16px 32px;
+}
+
+.skill-chart-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.radar-chart-inner-container {
+  position: relative;
+  width: 100%;
+  padding-left: calc(50% - 140px);
+}
+
+.bar-chart-inner-container {
+  position: relative;
+  width: 100%;
+  padding-left: calc(50% - 140px);
+}
+
+@media only screen and (max-width: 767px) {
+  .skill-text {
+    padding: 16px;
+  }
+}

@@ -1,0 +1,16 @@
+.school-logo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  margin: 40px auto;
+}
+
+.education-card {
+  min-height: 320px;
+}
+
+@media only screen and (max-width: 767px) {
+  .school-logo {
+    margin: 16px auto;
+  }
+}
